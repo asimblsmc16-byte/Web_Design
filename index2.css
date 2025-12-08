@@ -1,0 +1,75 @@
+div.kutu {
+    margin-top: 0px;
+    margin-left: 89px;
+    height: 350px;
+    width: 250px;
+    padding: 30px;
+    background: #dddddd;
+    border: 2px solid gray;
+    border-radius: 10px;
+    float: left;
+}
+div.kutu img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    border: 3px solid gray;
+}
+hr {
+    margin-top: 15px;
+    height: 1px;
+    color: gray;
+}
+div.kutu h1 {
+    font:bold 22px/24px Ariel;
+    margin-bottom: 20px;
+    text-align: center;
+    color: darkgoldenrod;
+}
+div.kutu p {
+    color: darkgoldenrod;
+    font: bold 14px/18px Tahoma;
+}
+div.kutu input {
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    background: darkgray;
+    color: black;
+}
+
+
+
+header.baslik {
+    width: 1200px;
+    height: 200px;
+    background-color: blue;
+    margin: auto;
+}
+nav.on {
+    width: 1200px;
+    height: 100px;
+    background-color: darkslategrey;
+    margin: auto;
+}
+div.container {
+    width: 1120px;
+    height: 600px;
+    background-color: darkcyan;
+    margin: auto;
+    padding: 40px;
+}
+div.container div.kutu:first-child {
+    margin-left: 0px;
+}
+footer.son {
+    width: 1200px;
+    height: 200px;
+    background-color: gray;
+    margin: auto;
+}
