@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    width: 100vw;
+    height: 110vh;
+    background: linear-gradient(to right, red, blue);
+}
+.baslik {
+    width: 100vw;
+    border-bottom: 3px solid gray;
+    height: calc(10vh - 3px);
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+.icerik-bolum {
+    width: 60vw;
+    height: 60vh;
+    margin-top: 5vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    border-radius: 10px;
+    background-color: #a200ff;
+}
+.kapanis {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    width: 60vw;
+    margin-top: 5vh;
+    height: 15vh;
+    border-radius: 10px;
+    background-color: #a200ff;
+}
