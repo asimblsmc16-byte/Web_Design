@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("istan2.jpg") center/cover no-repeat fixed;
+    margin-top: 150px;
+}
+.baslik {
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(to top, red, lightblue);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 0 25px 8px black;
+}
+.resim {
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    margin-top: 25px;
+    margin-left: 300px;
+    float: left;
+}
+h1 {
+    font: bolder 36px/38px Arial;
+    display: inline-block;
+    margin-top: 59px;
+    margin-left: 50px;
+    color: white;
+}
+#container {
+    margin: auto;
+    width: 1200px;
+    height: 1100px;
+}
+nav .links {
+    width: 130px;
+    height: 25px;
+    text-decoration: none;
+    font: 700 18px/20px Arial;
+    background-color: gray;
+    color: white;
+    display: inline-block;
+    margin-left: 21px;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 10px;
+    padding-top: 15px;
+}
+nav .links:first-child {
+    margin-left: 0px;
+}
+nav .links:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+.icerik {
+    width: 100%;
+    height: 900px;
+    margin-top: 20px;
+}
+.bolum1 .kutu {
+    width: 260px;
+    height: 260px;
+    margin-left: 22.67px;
+    background-color: rgba(160, 160, 160, 0.5);
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+}
+.bolum1 .kutu:first-child {
+    margin: 0;
+}
+.kutu img {
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 100px;
+}
+hr {
+    margin-top: 8px;
+}
+.kutu p {
+    text-align: center;
+}
+.kutu h3 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.kutu button {
+    width: 150px;
+    height: 30px;
+    margin-left: 55px;
+    margin-top: 10px;
+    background-color: gray;
+    border: 1px solid forestgreen;
+    border-radius: 5px;
+}
+.kutu button:hover {
+    color: gray;
+    background-color: black;
+    border: 1px solid darkred;
+}
